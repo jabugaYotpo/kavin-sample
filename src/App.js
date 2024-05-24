@@ -85,7 +85,7 @@ function App() {
 
           <StarRating
             instanceid={InstanceId_StarRating}
-            productid={ProductId}
+            mode-preview="true"
             active="false"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
