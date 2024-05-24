@@ -38,7 +38,7 @@ function App() {
           <Widget
             instanceid={InstanceId_Widget}
             productid={ProductId}
-            active="true"
+            active="false"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
@@ -85,8 +85,8 @@ function App() {
 
           <StarRating
             instanceid={InstanceId_StarRating}
-            mode-preview="true"
-            active="false"
+            productid={ProductId}
+            active="true"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
