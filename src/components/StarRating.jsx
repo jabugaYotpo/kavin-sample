@@ -51,7 +51,8 @@ function StarRating(props) {
                 <div
                   className="yotpo-widget-instance"
                   data-yotpo-instance-id={instanceid}
-                  mode-preview="true"
+                  data-yotpo-product-id={productid}
+                  mode-preview={productid === "" ? "true" : ""}
                   data-yotpo-section-id="product"
                 ></div>
               </section>
@@ -61,7 +62,8 @@ function StarRating(props) {
                 <div
                   className="yotpo-widget-instance"
                   data-yotpo-instance-id={instanceid}
-                  mode-preview="true"
+                  data-yotpo-product-id={productid}
+                  mode-preview={productid === "" ? "true" : ""}
                   data-yotpo-section-id="collection"
                 ></div>
               </section>
